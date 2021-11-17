@@ -376,6 +376,7 @@ img {
 }
 .item img {
     object-fit: cover;
+    height: 100%;
 }
 .service_item-ttl,.housing_item-ttl {
     padding-bottom: 20px;
@@ -893,6 +894,10 @@ textarea {
     }
     .service .text-content {
         padding: 16px;
+    }
+    .item img {
+        width: 300px;
+        height: 300px;
     }
 
     /* About */
