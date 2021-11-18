@@ -615,7 +615,7 @@ input[type="text"],input[type="email"],input[type="checkbox"],textarea {
     padding: 10px;
     border: 1px solid #ddd;
 }
-textarea {
+input[type="text"],input[type="email"],textarea {
     width: 100%;
 }
 /* 入力必須 */
