@@ -691,6 +691,9 @@ textarea {
 }
 
 /* contact_thanks.html,br_thanks.html(送信完了画面) */
+.thanks .container {
+    padding-bottom: 200px;
+}
 .message {
     font-size: 2.6rem;
     padding-bottom: 20px;
