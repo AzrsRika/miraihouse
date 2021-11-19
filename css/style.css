@@ -264,6 +264,7 @@ img {
 .item_ttl {
     font-size: 1.7rem;
 }
+
 /* news.html(記事一覧ページ)--------------------------------------- */
 .news-list2 li {
     margin-bottom: 30px;
@@ -556,7 +557,7 @@ img {
     font-weight: 900;
 }
 
-/* 下層ページ共通 --------------------------------------------------*/
+/* 下層ページ共通 ----------------------------------*/
 .header-current {
     color: #f99900;
 }
@@ -704,16 +705,6 @@ textarea {
 
 /* タブレット */
 @media(max-width: 1024px) {
-    /* Service */
-    .service .text-content {
-        padding: 20px 20px 40px;
-    }
-    /* About */
-    .about img {
-       width: 50%;
-    }
-    /* Works */
-
     /* レイアウト */
     .container {
         max-width: 100%;
@@ -732,13 +723,23 @@ textarea {
     .left-text {
         margin-right: 20px;
     }
-    .company .en,
     .news-page .en,
     .contact .en,
     .artical-page .en,
     .brochures .en {
         display: block;
     }
+
+    /* Service */
+    .service .text-content {
+        padding: 20px 20px 40px;
+    }
+
+    /* About */
+    .about img {
+       width: 50%;
+    }
+
     /* housing.html---------------------------------- */
     .housing-section_item {
         width: 30%;
@@ -747,6 +748,7 @@ textarea {
         width: 200px;
         height: 200px;
     }
+
     /* contact.html---------------------------------- */
     th,td {
         display: block;
@@ -775,6 +777,7 @@ textarea {
     #page-top {
         display: none;
     }
+    
     /* 共通 */
     .container {
         max-width: 100%;
@@ -800,6 +803,7 @@ textarea {
         margin-top: 40px;
         margin-bottom: 0;
     }
+
     /* Header */
     .header {
         position: static;
@@ -1057,6 +1061,8 @@ textarea {
     /* 送信完了画面------------------------------------- */
     .message-text {
         width: 100%;
-    }     
-
+    }
+    .message {
+        font-size: 2rem;
+    }
 }
