@@ -788,7 +788,7 @@ textarea {
         padding-top: 40px;
         padding-bottom: 40px;        
     }
-    .section-ttl {
+    .section-ttl,.ttl {
         /* タイトル下の余白 */
         margin: 0 auto 30px;
     }
@@ -961,9 +961,6 @@ textarea {
     .qa .flex-container {
         width: 50%;
     }
-    .jp-big {
-        font-size: 2.4rem;
-    }
     .qa-item {
         width: auto;
     }
@@ -1026,6 +1023,13 @@ textarea {
         margin-top: 20px;
     }
     
+    /* .works_detail.html ------------------------- */
+    /* 日本語の見出し・タイトル */
+    .jp-big,.ttl {
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+
     /* news.html----------------------------------- */
     .select-box {
         width: 60%;
