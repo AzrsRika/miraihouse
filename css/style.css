@@ -299,6 +299,7 @@ img {
     justify-content: center;
     text-align: center;
     font-size: 2rem;
+    margin-top: 75px;
 }
 .pagination li,.pagination a,.current {
     width: 36px;
